@@ -11,7 +11,7 @@ const Portfolio = () => {
   const portfolio = [
     {
       id: 1,
-      src: Nike store,
+      src: Nikestore,
       link:'https://nikeeshoestore.vercel.app/',
       href:'https://github.com/Dhruv3sh/Nike-Shoe-Store'
     },
@@ -23,13 +23,13 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: Stationary mart,
+      src: Stationarymart,
       link:'https://stationay-mart.000webhostapp.com/',
       href:'https://github.com/Dhruv3sh/stationary-mart'
     },
     {
       id: 4,
-      src: Weather App,
+      src: WeatherApp,
       link:'https://weather-app-ds.vercel.app/,
       href:'https://github.com/Dhruv3sh/Weather-App'
     },
