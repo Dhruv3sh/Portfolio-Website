@@ -3,6 +3,7 @@ import Nikestore from '../assets/portfolio/nikestore.png'
 import Rk from '../assets/portfolio/rk.png'
 import Spotify from '../assets/portfolio/spotify.png'
 import Stationarymart from '../assets/portfolio/stationarymart.png'
+import Weatherapp from '../assets/portfolio/weatherapp.png'
 
 
 
@@ -29,7 +30,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: WeatherApp,
+      src: Weatherapp,
       link:'https://weather-app-ds.vercel.app/,
       href:'https://github.com/Dhruv3sh/Weather-App'
     },
