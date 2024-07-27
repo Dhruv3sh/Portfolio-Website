@@ -48,13 +48,6 @@ const Technologies = () => {
         },
         {
             id: 6,
-            src: node,
-            title: 'node',
-            style: 'shadow-green-500',
-            link:'https://nodejs.org/docs/latest/api/'
-        },
-        {
-            id: 7,
             src: tailwind,
             title: 'tailwind',
             style: 'shadow-sky-500',
@@ -62,7 +55,7 @@ const Technologies = () => {
 
         },
         {
-            id: 8,
+            id: 7,
             src: github,
             title: 'github',
             style: 'shadow-gray-500',
