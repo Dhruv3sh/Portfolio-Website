@@ -7,12 +7,12 @@ const About = () => {
 
       <div name="about" className='flex flex-col justify-center items-center w-3/5 h-screen bg-gradient-to-b from-gray-900 via-gray-900 to-black text-white'>
         <div className='max-w-screen-lg p-0 mx-auto flex flex-col justify-center w-auto h-full'>
-          <div className='pb-5'>
+          <div className='pb-5 pl-10'>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
               About
             </p>
           </div>
-          <div className=''>
+          <div className='pl-10'>
             <p className='text-xl mt-6'> I'm an aspiring web developer with a strong passion for creating beautiful, functional websites and applications. Although I'm at the beginning of my professional journey, I've dedicated myself to learning and honing my skills in web development.
             </p>
 
