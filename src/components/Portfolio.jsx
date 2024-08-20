@@ -1,7 +1,7 @@
 import React from 'react'
-import Nikestore from '../assets/portfolio/nikestore.png'
+import Movie from '../assets/portfolio/movie.png'
+import Music from '../assets/portfolio/music.png'
 import Rk from '../assets/portfolio/rk.png'
-import Spotify from '../assets/portfolio/spotify.png'
 import Stationarymart from '../assets/portfolio/stationarymart.png'
 import Weatherapp from '../assets/portfolio/weatherapp.png'
 
@@ -12,20 +12,20 @@ const Portfolio = () => {
   const portfolio = [
     {
       id: 1,
-      src: Nikestore,
-      link:'https://nikeeshoestore.vercel.app/',
-      href:'https://github.com/Dhruv3sh/Nike-Shoe-Store'
+      src: Movie,
+      link:'https://feelmmovies.vercel.app/',
+      href:'https://github.com/Dhruv3sh/Feelm-Streaming-app'
     },
     {
       id: 2,
-      src: Spotify,
-      link:'https://dhruv-spotify-ncs.netlify.app/',
-      href:'https://github.com/Dhruv3sh/Spotify-Clone'
+      src: Music,
+      link:'https://music-player-ds.vercel.app/',
+      href:'https://github.com/Dhruv3sh/Music-player'
     },
     {
       id: 3,
       src: Stationarymart,
-      link:'https://stationay-mart.000webhostapp.com/',
+      link:'https://stationary-mart.vercel.app/',
       href:'https://github.com/Dhruv3sh/stationary-mart'
     },
     {
