@@ -5,7 +5,6 @@ import javascript from '../assets/javascript.png'
 import react from '../assets/react.png'
 import nextjs from '../assets/nextjs.png'
 import github from '../assets/github.png'
-import node from '../assets/node.png'
 import tailwind from '../assets/tailwind.png'
 
 const Technologies = () => {
@@ -69,7 +68,7 @@ const Technologies = () => {
         <div name='technologies' className='pt-80 bg-gradient-to-b from-gray-900 via-gray-900 to-black w-full h-screen '>
             <div className=' max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
                 <div>
-                    <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Technologies</p>
+                    <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline drop-shadow-[1px_1px_5px]'>Technologies</p>
                     <p className='pt-10'>These are the technologies i have worked on</p>
                 </div>
 
