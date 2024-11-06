@@ -50,7 +50,7 @@ const Technologies = () => {
       id: 6,
       src: git,
       title: "git",
-      style: "shadow-gray-500",
+      style: "shadow-orange-500",
       link: "https://git-scm.com/",
     },
     {
@@ -64,7 +64,7 @@ const Technologies = () => {
       id: 8,
       src: firebase,
       title: "Firebase",
-      style: "shadow-gray-500",
+      style: "shadow-yellow-500",
       link: "https://docs.github.com/en",
     },
   ];
