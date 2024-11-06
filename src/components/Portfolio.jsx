@@ -49,7 +49,7 @@ const Portfolio = () => {
         <motion.div
           initial={{ opacity: 0, y: +150 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
           <div className="pb-8">
@@ -65,7 +65,7 @@ const Portfolio = () => {
             <motion.div key={id}
               initial={{ opacity: 0, y: +150 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
               <div className="shadow-md shadow-gray-600 rounded-lg" >

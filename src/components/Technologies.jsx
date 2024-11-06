@@ -6,6 +6,7 @@ import react from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import git from "../assets/git.png";
+import firebase from "../assets/firebase.png";
 import { motion } from "framer-motion";
 
 const Technologies = () => {
@@ -59,6 +60,13 @@ const Technologies = () => {
       style: "shadow-gray-500",
       link: "https://docs.github.com/en",
     },
+    {
+      id: 8,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-gray-500",
+      link: "https://docs.github.com/en",
+    },
   ];
 
   return (
@@ -70,7 +78,7 @@ const Technologies = () => {
         <motion.div
           initial={{ opacity: 0, y: +150 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
           <div>
@@ -87,7 +95,7 @@ const Technologies = () => {
               key={id}
               initial={{ opacity: 0, y: +150 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
               <div

@@ -13,7 +13,7 @@ const About = () => {
           <motion.div
             initial={{ opacity: 0, y: +150 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
             <div className="pb-5 pl-10">
@@ -26,7 +26,7 @@ const About = () => {
           <motion.div
           initial={{ opacity: 0, y: +150 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
           <div className="pl-10">
@@ -63,7 +63,7 @@ const About = () => {
         <motion.div
           initial={{ opacity: 0, y: +150 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
           <div className="h-96 w-96 pt-[74px] pr-6">
