@@ -65,7 +65,7 @@ const Technologies = () => {
       src: firebase,
       title: "Firebase",
       style: "shadow-yellow-500",
-      link: "https://docs.github.com/en",
+      link: "https://firebase.google.com/",
     },
   ];
 
