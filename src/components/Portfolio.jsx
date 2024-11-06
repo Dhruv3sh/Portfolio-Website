@@ -62,13 +62,13 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolio.map(({ id, src, link, href }) => (
-            <motion.div
+            <motion.div key={id}
               initial={{ opacity: 0, y: +150 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false }}
               transition={{ duration: 0.5 }}
             >
-              <div className="shadow-md shadow-gray-600 rounded-lg">
+              <div className="shadow-md shadow-gray-600 rounded-lg" >
                 <img
                   src={src}
                   alt=""

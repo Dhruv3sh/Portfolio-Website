@@ -3,9 +3,9 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import git from "../assets/git.png";
 import { motion } from "framer-motion";
 
 const Technologies = () => {
@@ -40,17 +40,17 @@ const Technologies = () => {
     },
     {
       id: 5,
-      src: nextjs,
-      title: "nextjs",
-      style: "shadow-white",
-      link: "https://nextjs.org/docs",
-    },
-    {
-      id: 6,
       src: tailwind,
       title: "tailwind",
       style: "shadow-sky-500",
       link: "https://tailwindcss.com/docs/installation",
+    },
+    {
+      id: 6,
+      src: git,
+      title: "git",
+      style: "shadow-gray-500",
+      link: "https://git-scm.com/",
     },
     {
       id: 7,
@@ -80,26 +80,26 @@ const Technologies = () => {
             <p className="pt-10">These are the technologies i have worked on</p>
           </div>
         </motion.div>
-        
-        <motion.div
-          initial={{ opacity: 0, y: +150 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false }}
-          transition={{ duration: 0.5 }}
-        >
-          <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-            {tech.map(({ id, src, title, style, link }) => (
+
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+          {tech.map(({ id, src, title, style, link }) => (
+            <motion.div
+              key={id}
+              initial={{ opacity: 0, y: +150 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false }}
+              transition={{ duration: 0.5 }}
+            >
               <div
-                key={id}
                 onClick={() => window.open(link, "_blank")}
                 className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
               >
                 <img src={src} alt="" className="w-20 mx-auto" />
                 <p className="mt-4">{title}</p>
               </div>
-            ))}
-          </div>
-        </motion.div>
+            </motion.div>
+          ))}
+        </div>
       </div>
       <div className="bg-gradient-to-b from-black to-black h-52"></div>
     </div>
