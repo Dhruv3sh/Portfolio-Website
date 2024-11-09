@@ -41,10 +41,8 @@ const About = () => {
             <br />
 
             <p className="text-xl">
-              I focus on both front-end development and back-end development,
-              striving to create engaging and user-friendly interfaces. My
-              skills include: HTML, CSS, Tailwind CSS, JavaScript, ReactJs, C++
-              and MYSQL.
+              I focus on front-end development, striving to create engaging and user-friendly interfaces. My
+              skills include: HTML, CSS, Tailwind CSS, JavaScript, ReactJs, git/github for version control and source code management.
             </p>
 
             <br />
