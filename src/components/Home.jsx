@@ -11,7 +11,7 @@ const Home = () => {
     name='home'
       className=" w-full max-md:pt-20 bg-gradient-to-b from-black via-black to-gray-900 overflow-hidden"
     >
-      <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center px-6 py-14 md:py-32 md:flex-row">
+      <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center px-6 py-36 md:py-32 md:flex-row">
         <motion.div
           initial={{ opacity: 0, y: -150 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -66,7 +66,7 @@ const Home = () => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
           transition={{ duration: 1, delay:0.7}}
-          className=" max-md:absolute max-md:top-[108px] max-md:right-7"
+          className=" max-md:absolute max-md:top-[188px] max-md:right-7"
         >
           <img
             src={HeroImage}
