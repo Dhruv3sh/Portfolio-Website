@@ -72,7 +72,7 @@ const Technologies = () => {
   return (
     <div
       name="technologies"
-      className=" pt-16 md:pt-80 bg-gradient-to-b from-gray-900 via-gray-900 to-black w-full"
+      className=" pt-20 md:pt-80 bg-gradient-to-b from-gray-900 via-gray-900 to-black w-full"
     >
       <div className=" max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full text-white">
         <motion.div
@@ -93,7 +93,7 @@ const Technologies = () => {
           {tech.map(({ id, src, title, style, link }) => (
             <motion.div
               key={id}
-              initial={{ opacity: 0, y: +150 }}
+              initial={{ opacity: 0, y: +50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}

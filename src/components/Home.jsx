@@ -46,6 +46,7 @@ const Home = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false }}
               transition={{ duration: 1 }}
+              className=" pt-6 md:pt-0"
             >
               <Link
                 to="portfolio"
