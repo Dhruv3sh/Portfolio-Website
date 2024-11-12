@@ -15,8 +15,6 @@ function App() {
       <About />
       <Portfolio />
       <Technologies />
-
-
     </div>
   );
 }

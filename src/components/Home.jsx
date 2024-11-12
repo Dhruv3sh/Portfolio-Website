@@ -8,24 +8,25 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <div
-      name="home"
-      className=" h-screen w-full bg-gradient-to-b from-black via-black to-gray-900 "
+    name='home'
+      className=" w-full max-md:pt-20 bg-gradient-to-b from-black via-black to-gray-900 overflow-hidden"
     >
-      <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-6 md:flex-row">
+      <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center px-6 py-14 md:py-32 md:flex-row">
         <motion.div
           initial={{ opacity: 0, y: -150 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}
           transition={{ duration: 1 }}
+          className="md:w-[510px]"
         >
           <div className=" flex flex-col justify-center h-full">
-            <h1 className="text-4xl sm:text-7xl font-bold text-white">
+            <h1 className="text-[42px] sm:text-7xl font-bold text-white font-signature">
               Hey I'm,
             </h1>
 
             <TypeAnimation
               sequence={[
-                "Dhruv Sharma.",
+                "Dhruv Sharma",
                 2000,
                 "Frontend Dev..",
                 1000,
@@ -34,9 +35,9 @@ const Home = () => {
               ]}
               speed={50}
               repeat={Infinity}
-              className="font-bold pt-2 text-gray-400 text-xl md:text-6xl italic- mb-4"
+              className="pt-0 md:pt-2 text-gray-400 text-3xl md:text-6xl italic- mb-4"
             />
-            <p className=" text-2xl text-gray-400 py-2 max-w-md">
+            <p className=" text-2xl text-gray-400 py-2 max-w-md max-md:pt-10 font-mono">
               I code simple yet functional websites. I love building and
               designing creative and responsive web applicatons.
             </p>
@@ -61,15 +62,16 @@ const Home = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, x: +250 }}
+          initial={{ opacity: 0 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1, delay:0.7}}
+          className=" max-md:absolute max-md:top-[108px] max-md:right-7"
         >
           <img
             src={HeroImage}
             alt="my portfolio"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-32 md:w-full"
           ></img>
         </motion.div>
       </div>
