@@ -9,14 +9,14 @@ const About = () => {
         name="about"
         className="flex flex-row justify-center items-center w-full bg-gradient-to-b from-gray-900 via-gray-900 to-black text-white"
       >
-        <div className=" p-0 mx-auto flex flex-col justify-center w-full md-w-3/5 h-full">
+        <div className=" p-0 mx-auto flex flex-col justify-center w-full md:w-3/5 h-full">
           <motion.div
             initial={{ opacity: 0, y: +150 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <div className="pb-5 max-md:text-center md-pl-10">
+            <div className="pb-5 max-md:text-center md:pl-10">
               <p className="text-4xl font-bold inline border-b-4 border-gray-500 drop-shadow-[1px_1px_5px]">
                 About
               </p>
@@ -29,7 +29,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className=" p-3 md-pl-10">
+            <div className=" p-3 md:pl-10">
               <p className="md:text-xl mt-6">
                 {" "}
                 I'm an aspiring web developer with a strong passion for creating
