@@ -8,6 +8,8 @@
 
 @layer base{
   html{
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;;
+    --font-ibm-plex-sans: "__ibmPlex_e46600", "__ibmPlex_Fallback_e46600", sans-serif;
+    font-family: var(--font-ibm-plex-sans), sans-serif;
+    
   }
 }

@@ -30,7 +30,7 @@ const About = () => {
             transition={{ duration: 0.8 }}
           >
             <div className=" p-3 md:pl-10">
-              <p className="md:text-xl mt-6">
+              <p className="md:text-xl mt-6 opacity-80">
                 {" "}
                 I'm an aspiring web developer with a strong passion for creating
                 beautiful, functional websites and applications. Although I'm at
@@ -40,7 +40,7 @@ const About = () => {
 
               <br />
 
-              <p className=" md:text-xl">
+              <p className=" md:text-xl opacity-80">
                 I focus on front-end development, striving to create engaging
                 and user-friendly interfaces. My skills include: HTML, CSS,
                 Tailwind CSS, JavaScript, ReactJs, git/github for version
@@ -49,7 +49,7 @@ const About = () => {
 
               <br />
 
-              <p className=" md:text-xl">
+              <p className=" md:text-xl opacity-80">
                 I'm committed to learning and growing as a web developer. I
                 believe in writing clean, maintainable code and following best
                 practices. You can connect with me via social links and download

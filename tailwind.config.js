@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
+      sans: ["var(--font-ibm-plex-sans)", "sans-serif"],
       signature: ["Great Vibes"],
     },
     darkMode: "class",
