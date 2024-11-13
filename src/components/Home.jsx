@@ -4,14 +4,16 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Home = () => {
   return (
     <div
-    name='home'
+      name="home"
       className=" w-full max-md:pt-20 bg-gradient-to-b from-black via-black to-gray-900 overflow-hidden"
     >
-      <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center px-6 py-36 md:py-32 md:flex-row">
+      <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center px-6 py-24 md:py-32 md:flex-row">
         <motion.div
           initial={{ opacity: 0, y: -150 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -59,6 +61,34 @@ const Home = () => {
                   <MdOutlineKeyboardArrowRight size={25} className=" ml-1" />
                 </span>
               </Link>
+              <p className="text-white text-4xl pt-10 md:hidden font-signature">
+                Social Links :
+              </p>
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false }}
+                transition={{ duration: 1.5, delay: 0.7 }}
+                className="text-white md:hidden"
+              >
+                <ul className=" w-full p-6 flex justify-center gap-6 ">
+                  <li>
+                    <a href="https://github.com/Dhruv3sh">
+                      <FaGithub size={42} />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/dhruv-sharma-9b1151202/">
+                      <FaLinkedin size={42} />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:ds.github@outlook.com">
+                      <HiOutlineMail size={50} />
+                    </a>
+                  </li>
+                </ul>
+              </motion.div>
             </motion.div>
           </div>
         </motion.div>
@@ -66,8 +96,8 @@ const Home = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
-          transition={{ duration: 1, delay:0.7}}
-          className=" max-md:absolute max-md:top-[188px] max-md:right-7"
+          transition={{ duration: 1, delay: 0.7 }}
+          className=" max-md:absolute max-md:top-[140px] max-md:right-7"
         >
           <img
             src={HeroImage}

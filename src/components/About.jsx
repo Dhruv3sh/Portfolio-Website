@@ -7,7 +7,7 @@ const About = () => {
     <div className=" flex flex-row justify-center items-center w-full bg-gradient-to-b from-gray-900 via-gray-900 to-black text-white">
       <div
         name="about"
-        className="flex flex-row justify-center items-center w-full pt-16 bg-gradient-to-b from-gray-900 via-gray-900 to-black text-white"
+        className="flex flex-row justify-center items-center w-full pt-4 bg-gradient-to-b from-gray-900 via-gray-900 to-black text-white"
       >
         <div className=" p-0 mx-auto flex flex-col justify-center w-full md:w-3/5 h-full">
           <motion.div
@@ -22,7 +22,6 @@ const About = () => {
               </p>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: +150 }}
             whileInView={{ opacity: 1, y: 0 }}

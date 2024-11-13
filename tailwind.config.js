@@ -11,6 +11,7 @@ module.exports = {
     fontFamily: {
       sans: ["var(--font-ibm-plex-sans)", "sans-serif"],
       signature: ["Great Vibes"],
+      SansSerif: ["'Times New Roman', Times, serif"]
     },
     darkMode: "class",
   plugins: [nextui()],

@@ -47,10 +47,11 @@ const Navbar = () => {
   return (
     <div
       className={`fixed z-10 w-full transition-all duration-500 
-        ${navheight
-          ? "translate-y-0 opacity-100 h-20 max-md:h-[60px] px-4"
-          : "-translate-y-full opacity-0"
-      } flex justify-between items-center bg-black bg-opacity-90 text-white md:backdrop-blur-sm`}
+        ${
+          navheight
+            ? "translate-y-0 opacity-100 h-20 max-md:h-[60px] px-4"
+            : "-translate-y-full opacity-0"
+        } flex justify-between items-center bg-black bg-opacity-90 text-white md:backdrop-blur-sm`}
     >
       <div>
         <h1 className="text-5xl max-md:text-5xl pt-2 font-signature ml-2 ">

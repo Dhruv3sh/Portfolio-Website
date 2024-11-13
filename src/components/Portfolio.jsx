@@ -43,7 +43,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className=" pt-20 md:pt-40 bg-gradient-to-b from-black via-black to-gray-900 w-full text-white md:h-screen "
+      className=" pt-20 md:pt-20 bg-gradient-to-b from-black via-black to-gray-900 w-full text-white md:h-screen "
     >
       <div className="max-w-screen-lg md:p-4 mx-auto flex flex-col justify-center w-full ">
         <motion.div
@@ -56,19 +56,22 @@ const Portfolio = () => {
             <p className=" text-4xl font-bold inline border-b-4 border-gray-500 drop-shadow-[1px_1px_5px]">
               Portfolio
             </p>
-            <p className="pt-6 max-md:pr-16 ">Check out some of my work right here:</p>
+            <p className="pt-6 max-md:pr-16 ">
+              Check out some of my work right here:
+            </p>
           </div>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolio.map(({ id, src, link, href }) => (
-            <motion.div key={id}
+            <motion.div
+              key={id}
               initial={{ opacity: 0, y: +150 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <div className="shadow-md shadow-gray-600 rounded-lg" >
+              <div className="shadow-md shadow-gray-600 rounded-lg">
                 <img
                   src={src}
                   alt=""
